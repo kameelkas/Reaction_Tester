@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.containerDark {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1f1f1f;
+  color: aliceblue;
+}
+
+.containerLight {
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+  color: #1f1f1f;
+}
+
+#shape {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  display: none;
+  position: relative;
+}
+
+.time {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 6px;
+}
+
+#fastest {
+  color: darkgoldenrod;
+}
+
+#instructions {
+  font-size: 18px;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+#buttonDiv {
+  justify-content: right;
+}
+
+.darkMode {
+  border: 0;
+  font-size: 55px;
+  justify-content: center;
+  background-color: #1f1f1f;
+}
+
+.lightMode {
+  border: 0;
+  font-size: 55px;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.darkMode:hover {
+  background-color: grey;
+}
+
+.lightMode:hover {
+  background-color: grey;
+}
+
+p {
+  margin-left: 5px;
+}

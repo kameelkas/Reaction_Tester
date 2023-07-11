@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <title>Reaction Tester</title>
+  </head>
+
+  <body>
+    <div id="page" class="containerDark">
+      <div id="top">
+        <div id="title">
+          <h1>Reaction Speed Tester</h1>
+        </div>
+        <div id="buttonDiv">
+          <button id="click" class="darkMode">&#9681;</button>
+        </div>
+      </div>
+      <p id="instructions">
+        Click on the shape that appears as fast as you can!
+      </p>
+      <p class="time">Fastest Time: <span id="fastest"> </span></p>
+      <p class="time">Average Time: <span id="ave"> </span></p>
+      <p class="time">Your Time: <span id="timeTaken"> </span></p>
+      <div id="shape"></div>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
