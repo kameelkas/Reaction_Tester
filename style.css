@@ -79,3 +79,37 @@ body {
 p {
   margin-left: 5px;
 }
+
+.optionButtons {
+  transition-duration: 0.4s;
+  background-color: #808080;
+  color: aliceblue;
+  font-size: 30px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.optionButtons:hover {
+  background-color: black;
+  color: white;
+}
+
+#page {
+  z-index: 1;
+}
+
+#optionsScreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: grey;
+  padding: 20px;
+  text-align: center;
+  display: none;
+  z-index: 2;
+}
+
+#page.disable-clicks {
+  pointer-events: none;
+}

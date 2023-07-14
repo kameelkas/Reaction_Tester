@@ -25,18 +25,30 @@
   </head>
 
   <body>
+    <div id="optionsScreen">
+      <p>Click on of the options!</p>
+      <button class="optionButtons" id="resumeButton">Resume</button>
+      <button class="optionButtons" id="restartButton">Restart</button>
+      <button class="optionButtons" id="quitButton">Quit</button>
+    </div>
+
     <div id="page" class="containerDark">
       <div id="top">
         <div id="title">
           <h1>Reaction Speed Tester</h1>
         </div>
         <div id="buttonDiv">
+          <button id="pause" class="darkMode">&#128721;</button>
           <button id="click" class="darkMode">&#9681;</button>
         </div>
       </div>
       <p id="instructions">
-        Click on the shape that appears as fast as you can!
+        Click on the shape that appears as fast as you can! <br>
+        Click on stop sign to pause the game. <br>
+        Click on the half black circle to switch between light and dark mode.
+
       </p>
+
       <p class="time">Fastest Time: <span id="fastest"> </span></p>
       <p class="time">Average Time: <span id="ave"> </span></p>
       <p class="time">Your Time: <span id="timeTaken"> </span></p>
